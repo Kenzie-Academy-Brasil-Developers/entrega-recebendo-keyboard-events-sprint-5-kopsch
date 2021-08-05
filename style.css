@@ -1,0 +1,51 @@
+body {
+    background: rgb(129, 236, 255);
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: block;
+    margin: auto 0;
+    font-size: 20pt;
+    outline: none;
+    border: none;
+    color: rgb(255, 249, 238);
+    border: 2px dashed rgb(129, 236, 255);
+    padding: 10px;
+    background-color: rgb(132, 195, 250);
+    cursor: pointer;
+    position: absolute;  
+    left: 45%;            
+    top: 45%;                         
+    transform: translate(0, -50%);
+    transition: .1s;
+}
+  
+
+.button:active {
+    background-color:rgb(0, 127, 150);
+}
+
+#box {
+    position: fixed;
+    top: 300px;
+    left: 200px;
+    width: 312px;
+    height: 116px;
+    background: url(/src/box.gif);
+    background-size: contain;
+}
+
+.container {
+    position: absolute;
+    top: 20px;
+    width: 5850px;
+    height: 680px;
+    background: url(src/background.jpg);
+    background-size: contain;
+}
+
+.hidden {
+    display: none;
+}
